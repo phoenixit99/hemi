@@ -1,5 +1,5 @@
 #!/bin/bash
-SCRIPT_PATH="$HOME/rbo_crontab/check_port.sh"
+SCRIPT_PATH="$HOME/hemid_crontab/hemid_crontab.sh"
 if [ ! -f "$SCRIPT_PATH" ]; then
     echo -e "#!/bin/bash\necho \"This is my script running!\" >> $HOME/rbo_crontab/output.log" > "$SCRIPT_PATH"
     chmod +x "$SCRIPT_PATH"
